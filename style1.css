@@ -1,0 +1,258 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*................................................... header part */
+header{
+    position: relative;
+    background-color: black;
+    width: 20vw;
+    padding: 30px;
+    color: white;
+    height: 30vh;
+}
+header div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.hDivs p{
+    padding-left: 20px;
+}
+.hDivs img{
+    padding-left: 10px;
+}
+/*........................................................side bar part  */
+aside{
+    position: relative;
+    width: 20vw;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    padding-bottom: 182px;
+    height:fit-content;
+    /* z-index: -1; */
+}
+aside div{
+    display: flex;
+
+}
+.playlist{
+   
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.playlist img{
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    border-radius: 3px;
+}
+.playlist p{
+    padding-left: 20px;
+}
+
+.likedSongs{
+align-items: center;
+padding-left: 20px;
+margin-bottom: 10px;
+}
+.likedSongs p{
+    padding-left: 20px;
+}
+
+.episodes{
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 35px;
+
+}
+.episodes img{
+    background-color: rgb(6, 36, 6);
+    border-radius: 5px;
+    width: 38px;
+    height: 38px;
+}
+.episodes p{
+    padding-left: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+ul li{
+    padding: 10px 0px;
+}
+.install{
+    padding: 20px;
+    align-items: center;
+}
+.install p{
+    padding-left: 20px;
+}
+/* ...........................................................................main code */
+
+main{
+    left: 18vw;
+    position: absolute;
+    top:0px;
+    width: 82vw;
+    background-color:rgb(32, 31, 31);
+    height: auto;
+    margin-right: 10px;
+    
+    
+}
+.top{
+    justify-content: space-between;
+    color: white;
+    margin: 10px;
+}
+.top1 img{
+    background-color:black;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px 10px;
+    
+}
+.top2{
+    background-color: black;
+    border-radius: 40px;
+    width: 120px;
+    height: 35px;
+    padding: 5px;
+    padding-right: 10px;
+    margin: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.top p{
+padding: 15px 10px 0px 10px;
+}
+.goodMorning{
+    margin-left: 30px;
+}
+.heading h2{
+    color: white;
+    padding-left: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ccard{
+    display: flex;
+    color: white;
+    width: 300px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 80px;
+    background-color:rgb(68, 67, 67);
+    border-radius: 5px;
+}
+.ccard img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.ccard p{
+    align-self: center;
+    padding-left: 20px;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 20px;
+}
+/* shows */
+.div3{
+    padding: 0px 40px;
+}
+.showsHeading{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.showsHeading p{
+    color: gray;
+    font-size:medium;
+    
+}
+.shows{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.show{
+    width: 220px;
+    height: 270px;
+    background-color:rgb(44, 42, 42);
+    margin: 20px;
+    border-radius: 5px;
+    padding:15px;
+    color: white;
+}
+.show img{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.show h6{
+    padding-top: 20px;
+}
+.show p, .show h6{
+    
+    padding-left: 20px;
+}
+.show p{
+    font-size: small;
+    color: rgb(237, 232, 223);
+}
+/* ......................................................................................article(player) */
+article{
+    width: 100vw;
+    height: 150px;
+    
+   display: flex;
+   padding: 20px;
+   align-items: center;
+   background-color: rgb(48, 47, 47);
+   justify-content: space-between;
+   color: white;
+}
+.a1 pre{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.immg{
+    margin-top: 20px;
+}
+.a2 .diva2{
+    padding-left: 170px;
+}
+.time{
+    justify-content: space-between;
+    color: white;
+}
+.time img{
+    margin: 10px;
+}
+.time p{
+    padding-bottom: 30px;
+    /* padding: 0px 10px; */
+}
+/* .....................................................................................footer */
+ footer{
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(62, 192, 62);
+    color: black;
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 80vw; 
+ } 
